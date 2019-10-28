@@ -6,6 +6,7 @@ applications:
   memory: 1G
   buildpack: java_buildpack
   random-route: true
+  # stack: cflinuxfs2 should be changed to cflinuxfs3 along with the new pcf version.
   stack: cflinuxfs2
   services:
   - config-server
